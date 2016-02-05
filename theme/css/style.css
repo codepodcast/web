@@ -181,7 +181,7 @@
 
 	a
 	{
-		color: #d52349;
+		color: #021EAA;
 		text-decoration: underline;
 	}
 	
@@ -282,7 +282,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #d52349;
+			background: #021EAA;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -295,12 +295,12 @@
 
 			.button:hover
 			{
-				background: #e53359;
+				background: #0028F3;
 			}
 			
 			.button:active
 			{
-				background: #c51349;
+				background: #0028F3;
 			}
 		
 			.button-alt
@@ -511,7 +511,7 @@
 				position: absolute;
 				left: 0;
 				top: 1.3em;
-				background-color: #d52349;
+				background-color: #021EAA;
 				height: 3.5em;
 				text-align: center;
 				color: #fff;
@@ -527,7 +527,7 @@
 					position: absolute;
 					bottom: 0;
 					right: -1.2em;
-					border-left: solid 1.25em #d52349;
+					border-left: solid 1.25em #021EAA;
 					border-top: solid 1.8em transparent;
 					border-bottom: solid 1.8em transparent;
 				}
