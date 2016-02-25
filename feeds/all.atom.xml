@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://feed.codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-02-04T19:30:00+00:00</updated><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:s0e1.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://feed.codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-02-24T19:30:00+00:00</updated><entry><title>Episode 2. Concurrency – CSP &amp; Actors</title><link href="http://codepodcast.com/s0e2.html" rel="alternate"></link><updated>2016-02-24T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-24:s0e2.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Concurrency – CSP &amp;amp; Actors&lt;/h2&gt;
+&lt;p&gt;Multithreading is not the only approach we use to deal with concurrency. Single-purpose processes is our next frontier. Processes, that don`t have shared state. To coordinate, they pass messages to each other.&lt;/p&gt;
+&lt;p&gt;We can build complex concurrent systems using simple principles of CSP or Actors model. We break down programs into independent processes, each performing some specific job, talking to each other. How they talk to each is the point of contention here. That`s where the differences between CSP and Actors arise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; Andrey Salomatin &lt;a href="https://twitter.com/filipovskii"&gt;twitter.com/filipovskii&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Guests:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aaron Schlesinger&lt;/strong&gt; &lt;a href="http://arschles.com/"&gt;arschles.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jörgen Brandt&lt;/strong&gt; http://www.joergen-brandt.de/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CSP&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“Communicating Sequential Processes” orignial paper by C. A. R. Hoare &lt;a href="http://www.usingcsp.com/cspbook.pdf"&gt;http://www.usingcsp.com/  cspbook.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;“Go in 5 minutes” screencast by Aaron &lt;a href="https://www.youtube.com/channel/UC2GHqYE3fVJMncbrRd8AqcA"&gt;https://www.youtube.com/channel/UC2GHqYE3fVJMncbrRd8AqcA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;“Effective Go” &lt;a href="https://golang.org/doc/effective_go.html"&gt;https://golang.org/doc/effective_go.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;“Go Concurrency Patterns” talk by Rob Pike &lt;a href="https://talks.golang.org/2012/concurrency.slide#1"&gt;https://talks.golang.org/2012/concurrency.slide#1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;net.Context documentation: &lt;a href="https://godoc.org/golang.org/x/net/context"&gt;https://godoc.org/golang.org/x/net/context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;WebSockets documentation: &lt;a href="https://godoc.org/golang.org/x/net/websocket"&gt;https://godoc.org/golang.org/x/net/websocket&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Actors&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“A Universal Modular Actor Formalism for Artificial Intelligence” original paper by Carl Hewitt; Peter Bishop; Richard Steiger &lt;a href="http://worrydream.com/refs/Hewitt-ActorModel.pdf"&gt;http://worrydream.com/refs/Hewitt-ActorModel.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Erlang&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;“Learn You Some Erlang for great good!” by Fred Hébert &lt;a href="http://learnyousomeerlang.com/"&gt;http://learnyousomeerlang.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;“Programming Erlang” by Joe Armstrong (http://amzn.to/1UnfJpB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projects to check out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go&lt;/li&gt;
+&lt;li&gt;Docker &lt;a href="https://github.com/docker/docker"&gt;https://github.com/docker/docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;“Awesome Go” – a curated list of awesome Go frameworks, libraries and software &lt;a href="https://github.com/avelino/awesome-go"&gt;https://github.  com/avelino/awesome-go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Parallelism&lt;/li&gt;
+&lt;li&gt;Cuneiform &lt;a href="http://www.cuneiform-lang.org/"&gt;http://www.cuneiform-lang.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Music:&lt;/p&gt;
+&lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;PS: Links to Amazon are referral. You can use them to support the show.&lt;/p&gt;</summary></entry><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:s0e1.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
