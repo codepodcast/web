@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Podcast</title><link>http://codepodcast.com/</link><description></description><atom:link href="http://feed.codepodcast.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 24 Feb 2016 19:30:00 +0000</lastBuildDate><item><title>Episode 2. Concurrency – CSP &amp; Actors</title><link>http://codepodcast.com/s0e2.html</link><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Podcast</title><link>http://codepodcast.com/</link><description></description><atom:link href="http://feed.codepodcast.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 15 Apr 2016 19:30:00 +0000</lastBuildDate><item><title>Episode 3. Concurrency – Event loop &amp; Сoroutines</title><link>http://codepodcast.com/s0e3.html</link><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Concurrency - Event loop &amp;amp; Сoroutines&lt;/h2&gt;
+&lt;p&gt;Let`s escape the world where the Big Brother constantly interrupts you. Free
+ourselves from the oppression of consumerism. Forget about preemptive
+multitasking and enter the world of collaboration! Today we are talking about
+Event Loop and Coroutines.&lt;/p&gt;
+&lt;p&gt;Please send us stories about your awkward tech talks!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/podcastcode"&gt;@podcastcode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;andrey@codepodcast.com or michael@codepodcast.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; Andrey Salomatin &lt;a href="https://twitter.com/filipovskii"&gt;twitter.com/filipovskii&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark side:&lt;/strong&gt; Michael Beschastnov&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Guests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A. Jesse Jiryu Davis&lt;/strong&gt; &lt;a href="https://emptysqua.re/blog/"&gt;emptysqua.re/&lt;/a&gt; &lt;a href="https://github.com/ajdavis"&gt;github.com/ajdavis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saúl Ibarra Corretgé&lt;/strong&gt; &lt;a href="https://about.me/saghul"&gt;about.me/saghul&lt;/a&gt; &lt;a href="https://github.com/saghul"&gt;github/saghul&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;A much smarter way to spend your money&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Architecture of Open Source Applications &lt;a href="http://aosabook.org/en/buy.html#vol1"&gt;aosabook.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Event loops&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;What the heck is the event loop anyway? by Philip Roberts &lt;a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ"&gt;youtube.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An Introduction to libuv by Nikhil Marathe &lt;a href="https://nikhilm.github.io/uvbook/"&gt;nikhilm.github.io/uvbook/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Taming the asynchronous beast with ES7 by Nolan Lawson &lt;a href="https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html"&gt;https://pouchdb.com/2015/03/05/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How the heck does async/await work in Python 3.5? by Brett Cannon &lt;a href="http://www.snarky.ca/how-the-heck-does-async-await-work-in-python-3-5"&gt;www.snarky.ca/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Coroutines&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Coroutines Live-Coding Demonstration, at SCALE14x by A. Jesse Jiryu Davis &lt;a href="https://emptysqua.re/blog/scale14x-coroutines-talk/"&gt;emptysqua.re/blog/scale14x-coroutines-talk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Web Crawler With asyncio Coroutines from The Architecture Of Open Source Applications by A. Jesse Jiryu Davis and Guido van Rossum &lt;a href="http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html"&gt;aosabook.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unyielding by Glyph Lefkowitz &lt;a href="https://glyph.twistedmatrix.com/2014/02/unyielding.html"&gt;glyph.twistedmatrix.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Curious Course on Coroutines and Concurrency by David Beazley &lt;a href="http://www.dabeaz.com/coroutines/"&gt;www.dabeaz.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Generator Tricks for Systems Programmers by David Beazley &lt;a href="http://www.dabeaz.com/generators/"&gt;www.dabeaz.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Projects to check out&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Pyuv &lt;a href="https://github.com/saghul/pyuv"&gt;github.com/saghul/pyuv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pymongo &lt;a href="https://api.mongodb.org/python/current/index.html"&gt;api.mongodb.org/python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asyncio &lt;a href="http://asyncio.org/"&gt;asyncio.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;curio - concurrent I/O &lt;a href="https://github.com/dabeaz/curio"&gt;github.com/dabeaz/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tornado Web Server &lt;a href="https://github.com/tornadoweb/tornado"&gt;github.com/tornadoweb/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;libuv &lt;a href="http://docs.libuv.org/en/v1.x/"&gt;docs.libuv.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Music&lt;/h3&gt;
+&lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Michael Beschastnov | Andrey Salomatin</dc:creator><pubDate>Fri, 15 Apr 2016 19:30:00 +0000</pubDate><guid>tag:codepodcast.com,2016-04-15:s0e3.html</guid></item><item><title>Episode 2. Concurrency – CSP &amp; Actors</title><link>http://codepodcast.com/s0e2.html</link><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
