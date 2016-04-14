@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://feed.codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-04-15T19:30:00+00:00</updated><entry><title>Episode 3. Concurrency – Event loop &amp; Сoroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:s0e3.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://feed.codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-04-15T19:30:00+00:00</updated><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:s0e3.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
-&lt;h2&gt;Concurrency - Event loop &amp;amp; Сoroutines&lt;/h2&gt;
+&lt;h2&gt;Concurrency - Event loop &amp;amp; Coroutines&lt;/h2&gt;
 &lt;p&gt;Let`s escape the world where the Big Brother constantly interrupts you. Free
 ourselves from the oppression of consumerism. Forget about preemptive
 multitasking and enter the world of collaboration! Today we are talking about
