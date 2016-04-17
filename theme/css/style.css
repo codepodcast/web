@@ -615,6 +615,8 @@
 				ul.social li.dribbble:hover		{ background: #d4477b; }
 			ul.social li.soundcloud             { background: #858484; }
 				ul.social li.soundcloud:hover	{ background: #858484; }
+			ul.social li.rss                    { background: #858484; }
+				ul.social li.rss:hover	        { background: #858484; }
 			ul.social li.linkedin				{ background: #006599; }
 				ul.social li.linkedin:hover		{ background: #1075a9; }
 			ul.social li.tumblr					{ background: #2b4661; }
