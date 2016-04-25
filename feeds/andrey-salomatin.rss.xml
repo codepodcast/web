@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Podcast</title><link>http://codepodcast.com/</link><description></description><atom:link href="http://codepodcast.com/feeds/andrey-salomatin.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 25 Apr 2016 19:30:00 +0000</lastBuildDate><item><title>Introduction into podcast</title><link>http://codepodcast.com/podcast_blog0.html</link><description>&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Limits of technical podcasting&lt;/h2&gt;
+&lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are
+different, but the format is the same. And this format – it has it`s
+limitations.&lt;/p&gt;
+&lt;p&gt;For a long time I thought this was the way to do podcasting – you gather with
+your friends and discuss recent news, things you like and things you don`t.
+Sometimes you interview people to get an outside perspective. All of this is
+recorded and then, after little polishing, you release it.&lt;/p&gt;
+&lt;p&gt;I think it&lt;code&gt;s an excellent way to introduce listeners to new techniques and to
+developers in their community. This format has served well to shows like
+[Ruby5][ruby5], [JSJabber][jsjabber], [Mostly Erlang][mostlyerlang] and many
+others. I&lt;/code&gt;m one of the hosts of a podcast like that. It&lt;code&gt;s called
+[RadioJS][radiojs], it&lt;/code&gt;s about JavaScript and it`s in Russian.&lt;/p&gt;
+&lt;p&gt;On the other hand, there&lt;code&gt;s a ton of subjects it&lt;/code&gt;s hard to talk about on these
+podcasts: abstract concepts like design patterns, complicated systems like the
+Internet and so on. Unless hosts know a lot about the topic and have spoken
+publicly about it, it`s hard to record a coherent story in one take.&lt;/p&gt;
+&lt;p&gt;Interviews on these shows are often shallow. "What are you working on?" "How
+did you get into programming?" "What does your library/framework do?" Those
+dialogs are not very technical. I feel like they often miss an opportunity to
+dive deep into &lt;em&gt;person's work&lt;/em&gt;. Also, because it&lt;code&gt;s usually one guest per
+episode, there&lt;/code&gt;s no perspective. How are other people solving similar problem?
+What do &lt;em&gt;they&lt;/em&gt; have to say about alternative solutions? These questions spin in
+my head as I listen to an episode.&lt;/p&gt;
+&lt;h2&gt;There`s more to podcasting&lt;/h2&gt;
+&lt;p&gt;We live in a golden age of podcasting. People make so many kinds of shows:
+long form and short form, comedy and detective, narrative and conversational.&lt;/p&gt;
+&lt;p&gt;Several months ago I&lt;code&gt;ve stumbled upon a show called [StartUp][startup]. It&lt;/code&gt;s a
+podcast about building a business. When I first heard it, I was amazed. The
+quality of the show, the story, everything was done very professionally. I`ve
+never heard anything like this.&lt;/p&gt;
+&lt;p&gt;Later I`ve discovered &lt;a href="http://www.npr.org/podcasts/510298/ted-radio-hour"&gt;Ted Radio Hour&lt;/a&gt;,
+&lt;a href="http://freakonomics.com/"&gt;Freekonomics&lt;/a&gt; and &lt;a href="http://www.npr.org/podcasts/510289/planet-money/"&gt;Planet Money&lt;/a&gt;. Their format was
+different too. They would take one topic every episode and explore it in depth
+from various perspectives. I knew it was time for a different kind of a
+programming podcast, these shows gave me an idea about what to try first.&lt;/p&gt;
+&lt;h2&gt;Significant bits&lt;/h2&gt;
+&lt;p&gt;Together with my good friend &lt;a href="https://www.facebook.com/mikhail.be"&gt;Michael Beschastnov&lt;/a&gt; we&lt;code&gt;ve launched this
+experiment. We&lt;/code&gt;d choose one coding concept every episode, take several
+interviews, heavily edit them, add music and try to make a story out of it. We
+would talk usage, implementations and alternative solutions. We would give a
+comprehensive overview of a technical concept in 30 minutes or less.&lt;/p&gt;
+&lt;p&gt;We believe that ideas are more important than programming languages or
+libraries or other tools. Once you understand the concept, it doesn&lt;code&gt;t matter if
+it&lt;/code&gt;s implemented in Python or in Node or in Haskell. You get how it works. With
+this knowledge you can write new and debug existing code. Often you don`t even
+have to memorize the syntax of a target language to do that.&lt;/p&gt;
+&lt;p&gt;This is our goal – share concepts in programming that we find fascinating and
+make an entertaining story out of it.&lt;/p&gt;
+&lt;h2&gt;Explore&lt;/h2&gt;
+&lt;p&gt;We love how this experiment is going so far. There&lt;code&gt;re things we like about
+**Code** and things we don&lt;/code&gt;t, but the process of making it is super fun. Seeing
+listeners feedback is very rewarding.&lt;/p&gt;
+&lt;p&gt;At this moment we have released 3 episodes. They make up one series
+entitled &lt;em&gt;"Concurrency"&lt;/em&gt;. The show is taking shape, but we still have a backlog
+of ideas to try.&lt;/p&gt;
+&lt;p&gt;We have dived into one format, but there are so many others. Programming
+podcasts are all the same nowadays, but it doesn&lt;code&gt;t have to be like that. I
+would encourage *you* to experiment. Think of an idea for a show and then just
+record it! Record one episode and share it with your friends and colleagues or
+put it out on iTunes or SoundCloud. Send it to us, we are always searching for
+new ways to do technical podcasting. If you don&lt;/code&gt;t have time to record it – send
+the idea anyway!&lt;/p&gt;
+&lt;p&gt;There&lt;code&gt;s a lot to explore in the world of programming podcasts, let&lt;/code&gt;s kick off
+the scouting!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Andrey Salomatin&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/filipovskii"&gt;@filipovskii&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#97;&amp;#110;&amp;#100;&amp;#114;&amp;#101;&amp;#121;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#112;&amp;#111;&amp;#100;&amp;#99;&amp;#97;&amp;#115;&amp;#116;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#97;&amp;#110;&amp;#100;&amp;#114;&amp;#101;&amp;#121;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#112;&amp;#111;&amp;#100;&amp;#99;&amp;#97;&amp;#115;&amp;#116;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- Podcasts --&gt;
+
+&lt;!-- People --&gt;
+            &lt;img
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(226ed7dd-fc47-48ec-a988-67406cd977e2)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andrey Salomatin</dc:creator><pubDate>Mon, 25 Apr 2016 19:30:00 +0000</pubDate><guid>tag:codepodcast.com,2016-04-25:podcast_blog0.html</guid></item></channel></rss>
