@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Podcast</title><link>http://codepodcast.com/</link><description></description><atom:link href="http://codepodcast.com/feeds/andrey-salomatin.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 25 Apr 2016 19:30:00 +0000</lastBuildDate><item><title>Limits of technical podcasting</title><link>http://codepodcast.com/podcast_blog0.html</link><description>&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
-&lt;h2&gt;Limits of technical podcasting&lt;/h2&gt;
 &lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are
 different, but the format is the same. And this format – it has it's
 limitations.&lt;/p&gt;
@@ -74,4 +73,4 @@ the scouting!&lt;/p&gt;
 
 &lt;!-- People --&gt;
             &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(f082357b-142d-4cc8-b2b6-c0e871c68f09)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andrey Salomatin</dc:creator><pubDate>Mon, 25 Apr 2016 19:30:00 +0000</pubDate><guid>tag:codepodcast.com,2016-04-25:podcast_blog0.html</guid></item></channel></rss>
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(7d7543e7-672f-49f0-b990-368eb7743b66)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andrey Salomatin</dc:creator><pubDate>Mon, 25 Apr 2016 19:30:00 +0000</pubDate><guid>tag:codepodcast.com,2016-04-25:podcast_blog0.html</guid></item></channel></rss>
