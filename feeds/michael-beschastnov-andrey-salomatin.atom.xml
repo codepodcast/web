@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/michael-beschastnov-andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-04-15T19:30:00+00:00</updated><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:s0e3.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/michael-beschastnov-andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-08-01T19:30:00+00:00</updated><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e4.html" rel="alternate"></link><updated>2016-08-01T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-08-01:s0e4.html</id><summary type="html">&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276367693&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true"&gt;&lt;/iframe&gt;
+
+&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;How to design software&lt;/h2&gt;
+&lt;p&gt;How to design software? What are the techniques we can use? How can we become better at it? We`ve interviewed 3 engineers with completely different backgrounds to find out.&lt;/p&gt;
+&lt;p&gt;Please send us stories about your awkward tech talks!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/podcastcode"&gt;@podcastcode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;andrey@codepodcast.com or michael@codepodcast.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; Andrey Salomatin &lt;a href="https://twitter.com/filipovskii"&gt;twitter.com/filipovskii&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark side:&lt;/strong&gt; Michael Beschastnov&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Guests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Craig Andera&lt;/strong&gt; &lt;a href="https://twitter.com/craigandera"&gt;twitter.com/craigandera&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eric Elliott&lt;/strong&gt; &lt;a href="https://twitter.com/_ericelliott"&gt;twitter.com/_ericelliott&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mario Zechner&lt;/strong&gt; &lt;a href="https://twitter.com/badlogicgames"&gt;twitter.com/badlogicgames&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;A much smarter way to spend your money&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Patterns of Enterprise Application Architecture by Martin Fowler &lt;a href="http://www.goodreads.com/book/show/70156.Patterns_of_Enterprise_Application_Architecture"&gt;www.goodreads.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Test Driven Development: By Example by Kent Beck &lt;a href="http://www.goodreads.com/book/show/387190.Test_Driven_Development"&gt;www.goodreads.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tricks of the 3D Game Programming Gurus by Andre LaMothe &lt;a href="http://www.goodreads.com/book/show/2042298.Tricks_of_the_3D_Game_Programming_Gurus"&gt;www.goodreads.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The dragon book by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman &lt;a href="http://www.goodreads.com/book/show/703102.Compilers"&gt;www.goodreads.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mentions by Craig&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cognitect &lt;a href="http://cognitect.com"&gt;cognitect.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cognicast &lt;a href="http://blog.cognitect.com/cognicast/"&gt;blog.cognitect.com/cognicast/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You Are Not So Smart Podcast &lt;a href="http://youarenotsosmart.com/podcast/"&gt;youarenotsosmart.com/podcast/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rich Hickey, creator of Clojure PL &lt;a href="https://twitter.com/richhickey"&gt;twitter.com/richhickey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mentions by Eric&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog &lt;a href="https://medium.com/@_ericelliott"&gt;_ericelliott&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Online Course &lt;a href="https://ericelliottjs.com/"&gt;ericelliottjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mentions by Mario&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LibGDX &lt;a href="http://libgdx.badlogicgames.com/"&gt;libgdx.badlogicgames.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gamefromscratch.com/"&gt;www.gamefromscratch.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Music&lt;/h3&gt;
+&lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+            &lt;img
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(7d70203f-3e77-4903-9300-ecc4920f17ba)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:s0e3.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -65,7 +116,7 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
             &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(e06a88bb-d35f-4085-a91a-fdf7f543dc1e)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 2. Concurrency – CSP &amp; Actors</title><link href="http://codepodcast.com/s0e2.html" rel="alternate"></link><updated>2016-02-24T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-24:s0e2.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(2135fa1e-e9ad-49e8-b8b3-8c6a14a0cf3b)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 2. Concurrency – CSP &amp; Actors</title><link href="http://codepodcast.com/s0e2.html" rel="alternate"></link><updated>2016-02-24T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-24:s0e2.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -119,7 +170,7 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;PS: Links to Amazon are referral. You can use them to support the show.&lt;/p&gt;
             &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(e9b52da2-2f9a-4349-a208-1f985b44b975)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:s0e1.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(750bd7b1-246e-45ea-baeb-5bae8b4bcf89)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:s0e1.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -160,7 +211,7 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;p&gt;Mid-Air!
 &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
             &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(3d29d8f3-0864-4cd8-a40a-0e47e1ab7e1a)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1 preview</title><link href="http://codepodcast.com/first-episode-preview.html" rel="alternate"></link><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-01-31:first-episode-preview.html</id><summary type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(72bebeb5-70cf-49a1-bb7d-8cdd993bdcfd)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1 preview</title><link href="http://codepodcast.com/first-episode-preview.html" rel="alternate"></link><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-01-31:first-episode-preview.html</id><summary type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;p&gt;def post()&lt;/p&gt;
 &lt;p&gt;Hi guys, super-excited to spread a bit of rumor around first episode of code podcast. 
@@ -168,4 +219,4 @@ In first post it was claimed that beautiful patterns are present in completely d
 Episode 0 main topic is concurrency. Oh yes, what can be more exciting than that? You`ll hear about threads, loops, processes, green threads and there will be several guests that we are not yet unveiling, but these will be mega-awesome folks that you do not want to miss. &lt;/p&gt;
 &lt;p&gt;end&lt;/p&gt;
             &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(af75bb25-9643-45c4-a72f-bf8b10311216)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry></feed>
+            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(72083b85-b286-4e1e-bff2-85ac8d7b05bb)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry></feed>
