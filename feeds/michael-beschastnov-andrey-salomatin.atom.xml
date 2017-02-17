@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast - Michael Beschastnov | Andrey Salomatin</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/michael-beschastnov-andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-02-16T19:30:00+00:00</updated><entry><title>Episode 5. Type Systems</title><link href="http://codepodcast.com/s0e5.html" rel="alternate"></link><published>2017-02-16T00:00:00+00:00</published><updated>2017-02-16T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-02-16:/s0e5.html</id><summary type="html">&lt;p&gt;Episode #5. Type systems. Guests: Joseph Abrahamson &lt;a href="https://twitter.com/sdbo"&gt;twitter.com/sdbo&lt;/a&gt; Radoslav Kirov &lt;a href="https://twitter.com/radokirov"&gt;twitter.com/radokirov&lt;/a&gt; Erlend Hamberg &lt;a href="https://twitter.com/ehamberg"&gt;twitter.com/ehamberg&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307581943&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast - Michael Beschastnov | Andrey Salomatin</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/michael-beschastnov-andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-02-16T19:30:00+00:00</updated><entry><title>Episode 5. Type Systems</title><link href="http://codepodcast.com/s0e5.html" rel="alternate"></link><published>2017-02-16T00:00:00+00:00</published><updated>2017-02-16T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-02-16:/s0e5.html</id><summary type="html">&lt;p&gt;Episode #5. Type systems. Guests: Joseph Abrahamson &lt;a href="https://twitter.com/sdbo"&gt;twitter.com/sdbo&lt;/a&gt; Radoslav Kirov &lt;a href="https://twitter.com/radokirov"&gt;twitter.com/radokirov&lt;/a&gt; Erlend Hamberg &lt;a href="https://twitter.com/ehamberg"&gt;twitter.com/ehamberg&lt;/a&gt; Edwin Brady &lt;a href="https://twitter.com/edwinbrady"&gt;twitter.com/edwinbrady&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307581943&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;strong&gt;Episode discussion thread: &lt;a href="https://discuss.codepodcast.com/t/episode-5-type-systems/22"&gt;discuss.codepodcast.com/t/episode-5-t…pe-systems/22&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Type Systems&lt;/h2&gt;
 &lt;p&gt;Your favorite features of Type Systems in one episode! Interfaces, Generics, ADT, Type Classes and Dependent Types. We'll talk about what they are and how they shape the way we work.&lt;/p&gt;
 &lt;ul&gt;
@@ -16,12 +17,12 @@
 &lt;li&gt;&lt;strong&gt;Erlend Hamberg&lt;/strong&gt; &lt;a href="https://twitter.com/ehamberg"&gt;twitter.com/ehamberg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Edwin Brady&lt;/strong&gt; &lt;a href="https://twitter.com/edwinbrady"&gt;twitter.com/edwinbrady&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Special thanks to our reviewers, this time:&lt;/h3&gt;
+&lt;h3&gt;Special thanks to our reviewers, this time&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Adriano Melo&lt;/strong&gt; &lt;a href="https://twitter.com/AdrianoMelo"&gt;twitter.com/AdrianoMelo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Roman Liutikov&lt;/strong&gt; &lt;a href="https://twitter.com/roman01la"&gt;twitter.com/roman01la&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Links: Basics&lt;/h2&gt;
+&lt;h3&gt;Links: Basics&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Benjamin C. Pierce "Types and Programming Languages" &lt;a href="https://www.cis.upenn.edu/~bcpierce/tapl/"&gt;www.cis.upenn.edu/~bcpierce/tapl/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;A draft of the book available for free &lt;a href="http://ropas.snu.ac.kr/~kwang/520/pierce_book.pdf"&gt;ropas.snu.ac.kr/~kwang/520/pierce_book.pdf&lt;/a&gt;&lt;/li&gt;
