@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-08-01T19:30:00+00:00</updated><entry><title>Episode 4. How to design software</title><link href="http://codepodcast.com/s0e4.html" rel="alternate"></link><updated>2016-08-01T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-08-01:s0e4.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276367693&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-02-16T19:30:00+00:00</updated><entry><title>Episode 5. Type Systems</title><link href="http://codepodcast.com/s0e5.html" rel="alternate"></link><published>2017-02-16T00:00:00+00:00</published><updated>2017-02-16T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-02-16:/s0e5.html</id><summary type="html">&lt;p&gt;Episode #5. Type systems. Guests: Joseph Abrahamson &lt;a href="https://twitter.com/sdbo"&gt;twitter.com/sdbo&lt;/a&gt; Radoslav Kirov &lt;a href="https://twitter.com/radokirov"&gt;twitter.com/radokirov&lt;/a&gt; Erlend Hamberg &lt;a href="https://twitter.com/ehamberg"&gt;twitter.com/ehamberg&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307581943&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Type Systems&lt;/h2&gt;
+&lt;p&gt;Your favorite features of Type Systems in one episode! Interfaces, Generics, ADT, Type Classes and Dependent Types. We'll talk about what they are and how they shape the way we work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host:&lt;/strong&gt; Andrey Salomatin &lt;a href="https://twitter.com/filipovskii"&gt;twitter.com/filipovskii&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark side:&lt;/strong&gt; Michael Beschastnov&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Guests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Joseph Abrahamson&lt;/strong&gt; &lt;a href="https://twitter.com/sdbo"&gt;twitter.com/sdbo&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radoslav Kirov&lt;/strong&gt; &lt;a href="https://twitter.com/radokirov"&gt;twitter.com/radokirov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Erlend Hamberg&lt;/strong&gt; &lt;a href="https://twitter.com/ehamberg"&gt;twitter.com/ehamberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edwin Brady&lt;/strong&gt; &lt;a href="https://twitter.com/edwinbrady"&gt;twitter.com/edwinbrady&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Special thanks to our reviewers, this time:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Adriano Melo&lt;/strong&gt; &lt;a href="https://twitter.com/AdrianoMelo"&gt;twitter.com/AdrianoMelo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roman Liutikov&lt;/strong&gt; &lt;a href="https://twitter.com/roman01la"&gt;twitter.com/roman01la&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links: Basics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Benjamin C. Pierce "Types and Programming Languages" &lt;a href="https://www.cis.upenn.edu/~bcpierce/tapl/"&gt;www.cis.upenn.edu/~bcpierce/tapl/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A draft of the book available for free &lt;a href="http://ropas.snu.ac.kr/~kwang/520/pierce_book.pdf"&gt;ropas.snu.ac.kr/~kwang/520/pierce_book.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rob Nederpelt and Herman Geuvers "Type Theory and formal proof" &lt;a href="http://www.win.tue.nl/~wsinrpn/book_type_theory.htm"&gt;www.win.tue.nl/~wsinrpn/book_type_theory.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Robert Harper "Practical Foundations for Programming Languages" &lt;a href="https://www.cs.cmu.edu/~rwh/pfpl.html"&gt;www.cs.cmu.edu/~rwh/pfpl.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and protocol design — PART I &lt;a href="https://notamonadtutorial.com/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#.9gmbqkdx5"&gt;notamonadtutorial.com/interview-with…fbd#.rawqi9bvp&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paper by Xavier Leroy "Manifest Types, Modules, and Separate Compilation" (1994) &lt;a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.3950"&gt;citeseerx.ist.psu.edu/viewdoc/summar…10.1.1.14.3950&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paper by Conor McBride and Ross Paterson "FUNCTIONAL PEARL: Applicative programming with effects" &lt;a href="http://strictlypositive.org/IdiomLite.pdf"&gt;strictlypositive.org/IdiomLite.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Music&lt;/h3&gt;
+&lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><category term="code"></category><category term="podcast"></category></entry><entry><title>Episode 4. How to design software</title><link href="http://codepodcast.com/s0e4.html" rel="alternate"></link><published>2016-08-01T00:00:00+00:00</published><updated>2016-08-01T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-08-01:/s0e4.html</id><summary type="html">&lt;p&gt;Episode #4. How to design software?. Guests: Craig Andera &lt;a href="https://twitter.com/craigandera"&gt;twitter.com/craigandera&lt;/a&gt; Eric Elliott &lt;a href="https://twitter.com/_ericelliott"&gt;twitter.com/_ericelliott&lt;/a&gt; Mario Zechner &lt;a href="https://twitter.com/badlogicgames"&gt;twitter.com/badlogicgames&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276367693&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -48,9 +90,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Music&lt;/h3&gt;
 &lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(ff248d51-1ea5-4c00-b7ce-3f854d11e837)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Limits of technical podcasting</title><link href="http://codepodcast.com/podcast_blog0.html" rel="alternate"></link><updated>2016-04-25T19:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-25:podcast_blog0.html</id><summary type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+&lt;hr&gt;</content><category term="code"></category><category term="podcast"></category></entry><entry><title>Limits of technical podcasting</title><link href="http://codepodcast.com/podcast_blog0.html" rel="alternate"></link><published>2016-04-25T00:00:00+00:00</published><updated>2016-04-25T19:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-25:/podcast_blog0.html</id><summary type="html">&lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are different, but the format is the same. And this format – it has it's limitations.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are
 different, but the format is the same. And this format – it has it's
@@ -116,15 +156,13 @@ new ways to do technical podcasting. If you don't have time to record it – sen
 the idea anyway!&lt;/p&gt;
 &lt;p&gt;There's a lot to explore in the world of programming podcasts, let's kick off
 the scouting!&lt;/p&gt;
-&lt;hr /&gt;
+&lt;hr&gt;
 &lt;p&gt;Andrey Salomatin&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://twitter.com/filipovskii"&gt;@filipovskii&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#97;&amp;#110;&amp;#100;&amp;#114;&amp;#101;&amp;#121;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#112;&amp;#111;&amp;#100;&amp;#99;&amp;#97;&amp;#115;&amp;#116;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#97;&amp;#110;&amp;#100;&amp;#114;&amp;#101;&amp;#121;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#112;&amp;#111;&amp;#100;&amp;#99;&amp;#97;&amp;#115;&amp;#116;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Podcasts --&gt;
 
-&lt;!-- People --&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(b4f648ae-c13b-47a5-8e37-4fdd56c6d86d)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:s0e3.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;!-- People --&gt;</content></entry><entry><title>Episode 3. Concurrency – Event loop &amp; Coroutines</title><link href="http://codepodcast.com/s0e3.html" rel="alternate"></link><published>2016-04-15T00:00:00+00:00</published><updated>2016-04-15T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-15:/s0e3.html</id><summary type="html">&lt;p&gt;Episode #3. Concurrency – Event loops &amp;amp; Сoroutines. Guests: A. Jesse Jiryu Davis &lt;a href="https://emptysqua.re/blog/"&gt;emptysqua.re/&lt;/a&gt; and Saúl Ibarra Corretgé &lt;a href="https://about.me/saghul"&gt;about.me/saghul&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -188,9 +226,7 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Music&lt;/h3&gt;
 &lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(6d1f49b0-5fc2-4500-80ed-f80728dae9b0)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 2. Concurrency – CSP &amp; Actors</title><link href="http://codepodcast.com/s0e2.html" rel="alternate"></link><updated>2016-02-24T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-24:s0e2.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;hr&gt;</content></entry><entry><title>Episode 2. Concurrency – CSP &amp; Actors</title><link href="http://codepodcast.com/s0e2.html" rel="alternate"></link><published>2016-02-24T00:00:00+00:00</published><updated>2016-02-24T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-24:/s0e2.html</id><summary type="html">&lt;p&gt;Episode #2. Concurrency – CSP &amp;amp; Actors. Guests: Aaron Schlesinger http://arschles.com/ and Jörgen Brandt http://www.joergen-brandt.de/&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -241,10 +277,8 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Music&lt;/h3&gt;
 &lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;PS: Links to Amazon are referral. You can use them to support the show.&lt;/p&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(8588b80e-31c2-4dcd-becf-450641a43a6e)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:s0e1.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;p&gt;PS: Links to Amazon are referral. You can use them to support the show.&lt;/p&gt;</content></entry><entry><title>Episode 1. Concurrency</title><link href="http://codepodcast.com/s0e1.html" rel="alternate"></link><published>2016-02-04T00:00:00+00:00</published><updated>2016-02-04T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-02-04:/s0e1.html</id><summary type="html">&lt;p&gt;First episode. Concurrency and multithreading. Speakers: Daniel Higginbotham, Steve Klabnik.&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245483308&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
@@ -283,26 +317,18 @@ Event Loop and Coroutines.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/intermezzOS/kernel/issues"&gt;https://github.com/intermezzOS/kernel/issues&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Music&lt;/h2&gt;
 &lt;p&gt;Mid-Air!
-&lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(4ffa295e-24c5-4062-b1b9-6b7b3600f7e9)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode 1 preview</title><link href="http://codepodcast.com/first-episode-preview.html" rel="alternate"></link><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-01-31:first-episode-preview.html</id><summary type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+&lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Episode 1 preview</title><link href="http://codepodcast.com/first-episode-preview.html" rel="alternate"></link><published>2016-01-31T00:00:00+00:00</published><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov | Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-01-31:/first-episode-preview.html</id><summary type="html">&lt;p&gt;This is announcement of first episode. Code podcast&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;p&gt;def post()&lt;/p&gt;
 &lt;p&gt;Hi guys, super-excited to spread a bit of rumor around first episode of code podcast. 
 In first post it was claimed that beautiful patterns are present in completely different environments and episode 0 will be so much more about it. 
 Episode 0 main topic is concurrency. Oh yes, what can be more exciting than that? You`ll hear about threads, loops, processes, green threads and there will be several guests that we are not yet unveiling, but these will be mega-awesome folks that you do not want to miss. &lt;/p&gt;
-&lt;p&gt;end&lt;/p&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(707654cd-e614-43b7-9f7c-3beb15260007)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Episode0. main()</title><link href="http://codepodcast.com/s0e0.html" rel="alternate"></link><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov</name></author><id>tag:codepodcast.com,2016-01-31:s0e0.html</id><summary type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243553280&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;p&gt;end&lt;/p&gt;</content></entry><entry><title>Episode0. main()</title><link href="http://codepodcast.com/s0e0.html" rel="alternate"></link><published>2016-01-31T00:00:00+00:00</published><updated>2016-01-31T19:30:00+00:00</updated><author><name>Michael Beschastnov</name></author><id>tag:codepodcast.com,2016-01-31:/s0e0.html</id><summary type="html">&lt;p&gt;Hi guys, we are launching, this is episode 0 which gives you the idea of what will happen in this podcast series. Please welcome our host: Andrey Salomatin&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243553280&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
 
 &lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
-&lt;p&gt;Code is about concepts behind programming languages, frameworks and libraries. Same beautiful patterns that are present in completely different environments. Occasionally we will invite clever programmers to talk about their favourite techniques. &lt;/p&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(553e3bec-3ea6-4c60-bd89-9333f4bf95b8)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry><entry><title>Hello World</title><link href="http://codepodcast.com/code-podcast-soon.html" rel="alternate"></link><updated>2016-01-20T19:30:00+00:00</updated><author><name>Michael Beschastnov</name></author><id>tag:codepodcast.com,2016-01-30:code-podcast-soon.html</id><summary type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+&lt;p&gt;Code is about concepts behind programming languages, frameworks and libraries. Same beautiful patterns that are present in completely different environments. Occasionally we will invite clever programmers to talk about their favourite techniques. &lt;/p&gt;</content></entry><entry><title>Hello World</title><link href="http://codepodcast.com/code-podcast-soon.html" rel="alternate"></link><published>2016-01-30T00:00:00+00:00</published><updated>2016-01-20T19:30:00+00:00</updated><author><name>Michael Beschastnov</name></author><id>tag:codepodcast.com,2016-01-30:/code-podcast-soon.html</id><summary type="html">&lt;p&gt;Code podcast is launching soon, if you are interested check out us on social &lt;a href="https://twitter.com/podcastcode"&gt;https://twitter.com/podcastcode&lt;/a&gt; &lt;a href="https://www.facebook.com/Codepodcast"&gt;https://www.facebook.com/Codepodcast&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;script src="https://dev.wssp.iponweb.net/adj?auid=1"&gt;&lt;/script&gt;
 
-&lt;p&gt;Hello world! Code podcast launching soon. &lt;/p&gt;
-            &lt;img
-            src="//www.google-analytics.com/__utm.gif?utmwv=4&amp;utmn=(7170c566-e1f9-4560-98df-36960c2763b1)&amp;utmhn=codepodcast.com&amp;utmul=en-us&amp;utmcn=1&amp;utmr=0&amp;utm_medium=rss&amp;utmac=UA-73380046-1&amp;utmcc="&gt;</summary></entry></feed>
+&lt;p&gt;Hello world! Code podcast launching soon. &lt;/p&gt;</content></entry></feed>
