@@ -1,5 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast - Andrey Salomatin</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2016-04-25T19:30:00+00:00</updated><entry><title>Limits of technical podcasting</title><link href="http://codepodcast.com/podcast_blog0.html" rel="alternate"></link><published>2016-04-25T00:00:00+00:00</published><updated>2016-04-25T19:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-25:/podcast_blog0.html</id><summary type="html">&lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are different, but the format is the same. And this format – it has it's limitations.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast - Andrey Salomatin</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/andrey-salomatin.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-03-03T00:00:00+00:00</updated><entry><title>Episode #5 Script</title><link href="http://codepodcast.com/s0e5-script.html" rel="alternate"></link><published>2017-03-03T00:00:00+00:00</published><updated>2017-03-02T20:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-03-03:/s0e5-script.html</id><summary type="html">&lt;p&gt;We've recently released &lt;a href="codepodcast.com/s0e5.html"&gt;the episode about type systems&lt;/a&gt;. To give you more context, I've refactored the script of the episode and added examples.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h1&gt;Type Systems, collateral&lt;/h1&gt;
+&lt;p&gt;We've recently released &lt;a href="codepodcast.com/s0e5.html"&gt;the episode about type systems&lt;/a&gt;. To give you more context, I've refactored the script of the episode and added examples.&lt;/p&gt;
+&lt;h2&gt;Hardworking Carpenters&lt;/h2&gt;
+&lt;p&gt;Type System is like Ikea furniture. It ensures that parts that don't belong together won't fit. For a person who assembles the furniture, mistakes are harder to make. Still possible, just hard. On the other hand, we can always go to a building materials store. Buy wood and nails. And build furniture on our own. This what writing Clojure or JavaScript feels like. We'll not talk about it today.&lt;/p&gt;
+&lt;p&gt;Here's the definition from "Types and Programming Languages" by Benjamin Pierce.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A type system is a tractable syntactic method for proving the absence of
+certain program behaviors by classifying phrases according to the kinds of values they compute.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It's impossible to prove that a program has no mistakes. Types make sure that certain kinds of errors will never happen. We, programmers, assign types to expressions, so the type system knows what kind of values are "legal" and what is expected.&lt;/p&gt;
+&lt;h2&gt;Types, what's in store?&lt;/h2&gt;
+&lt;p&gt;Modern type systems can do things. Cool things.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Simple checks. TS will tell you if you're passing an integer to a function that excepts a string.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type system gives us ways to write abstract code. It reduces code duplication and makes the code easier to read.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It's a documentation tool. Type information is used by people and static analysis tools. Autocomplete in an IDE is one example.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compilers can use type information to make the program more efficient.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type systems can ensure language safety. That's a tricky one. Let me quote Pierce again. He's talking about a safe language:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A programmer using this language then expects that an array can be changed only by using the update operation on it explicitly — and not, for example by writing past the end of some data structure.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Y'all Fancy&lt;/h2&gt;
+&lt;p&gt;It's hard to classify Type Systems. We'll be talking more about type system features rather than concrete languages.&lt;/p&gt;
+&lt;p&gt;We'll sometimes use the expression "fancy type system" to refer to those that focus on powerful abstractions rather than simple checks. Type systems that are used in languages like Haskell, OCaml, F# and so on.&lt;/p&gt;
+&lt;h2&gt;Check it out&lt;/h2&gt;
+&lt;p&gt;JavaScript doesn't have a static type system. It's a design choice. The users that miss perks of types came up with TypeScript. They introduced extra syntax to declare types and wrote a type checker and a compiler to javascript.&lt;/p&gt;
+&lt;p&gt;TypeScript is a good example of a language that's focusing on &lt;em&gt;checks&lt;/em&gt; and &lt;em&gt;documentation&lt;/em&gt;. TypeScript compiler doesn't do any type-based optimizations, to keep the JS output predictable.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; * In pure JS we&amp;#39;d write types in the comments.&lt;/span&gt;
+&lt;span class="cm"&gt; *&lt;/span&gt;
+&lt;span class="cm"&gt; * @param {String} name&lt;/span&gt;
+&lt;span class="cm"&gt; * @param {Image} palm&lt;/span&gt;
+&lt;span class="cm"&gt; * @return {Faith}&lt;/span&gt;
+&lt;span class="cm"&gt; */&lt;/span&gt;
+&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;tellFortune&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;palm&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; * In TypeScript, types will be enforced. Also, tools can use the type&lt;/span&gt;
+&lt;span class="cm"&gt; * information.&lt;/span&gt;
+&lt;span class="cm"&gt; */&lt;/span&gt;
+&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;tellFortune&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;name&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;palm&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;Image&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;Faith&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Keep it Classy&lt;/h2&gt;
+&lt;p&gt;Type Systems in TypeScript, Java and C# give us two main tools to create abstractions: classes and interfaces.&lt;/p&gt;
+&lt;p&gt;Classes describe both a public signature of the object and the implementation. Interfaces only describe the signature.&lt;/p&gt;
+&lt;p&gt;In Java, a class always extends one other class. It also may implement one or more interfaces.&lt;/p&gt;
+&lt;p&gt;Interfaces allow us to treat objects with different classes similarly. For instance, in Java, we have an interface called Comparable. If we were to write a sorting function, it would take an array of Comparable elements as an argument. It doesn't matter what the elements actually are, if it's Strings or Integers or Money, the sorting function will treat them in the same way.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;interface&lt;/span&gt; &lt;span class="nc"&gt;ComparableToOranges&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;compareTo&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Orange&lt;/span&gt; &lt;span class="n"&gt;orange&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Apple&lt;/span&gt; &lt;span class="kd"&gt;implements&lt;/span&gt; &lt;span class="n"&gt;ComparableToOranges&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;compareTo&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Orange&lt;/span&gt; &lt;span class="n"&gt;orange&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="o"&gt;...&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Orange&lt;/span&gt; &lt;span class="kd"&gt;implements&lt;/span&gt; &lt;span class="n"&gt;ComparableToOranges&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;compareTo&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Orange&lt;/span&gt; &lt;span class="n"&gt;orange&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="o"&gt;...&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Don&amp;#39;t have to write separate functions for Apples and Oranges!&lt;/span&gt;
+&lt;span class="n"&gt;function&lt;/span&gt; &lt;span class="nf"&gt;sortOranges&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ComparableToOranges&lt;/span&gt;&lt;span class="o"&gt;[]&lt;/span&gt; &lt;span class="n"&gt;kindaOranges&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;With classes, a subclass inherits the code of its parent. So classes solve the same problem as interfaces. They minimize code duplication, but they do it  from a different angle.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DefaultOrange&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;peel&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{...}&lt;/span&gt;
+  &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="nf"&gt;getTaste&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;ok&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Don&amp;#39;t have to reimplement `peel()`!&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MoroccanOrange&lt;/span&gt; &lt;span class="kd"&gt;extends&lt;/span&gt; &lt;span class="n"&gt;DefaultOrange&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="nd"&gt;@Override&lt;/span&gt;
+  &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="nf"&gt;getTaste&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;amazing!&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Parametric types&lt;/h2&gt;
+&lt;p&gt;One powerful feature that many type systems have is &lt;strong&gt;parametric types&lt;/strong&gt; or &lt;strong&gt;generics&lt;/strong&gt;. TypeScript, Java, Haskell and other languages have it. Go, infamously, doesn't have it.&lt;/p&gt;
+&lt;p&gt;The simplest example is a List of things. Sometimes we'd like to reflect in the type, which properties do things in a specific list have. What we can and can not do with those things. For example, if we have a list of comparable things, we can sort it. If we have a list of numbers, we can some them up.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// Can&amp;#39;t do much with the values of this list.&lt;/span&gt;
+&lt;span class="c1"&gt;// Can only do operations on the list itself: get the length, slice and so on.&lt;/span&gt;
+&lt;span class="n"&gt;List&lt;/span&gt; &lt;span class="n"&gt;list1&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Can sort the values of this list.&lt;/span&gt;
+&lt;span class="n"&gt;List&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;T&lt;/span&gt; &lt;span class="kd"&gt;extends&lt;/span&gt; &lt;span class="n"&gt;Comparable&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;list2&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Algebraic!&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Algebraic! Adventure Time" src="https://cloud.githubusercontent.com/assets/610717/23235064/6cb40f8a-f954-11e6-9d1e-01adbe0cc5df.png"&gt;&lt;/p&gt;
+&lt;p&gt;One powerful instrument that Java or C# don't support is a &lt;strong&gt;Sum Type&lt;/strong&gt; also called a &lt;strong&gt;Union Type&lt;/strong&gt;. Sum type is a part of a larger concept that's called Algebraic Data Type, or ADT for short. When people talk about languages that support ADT they often mean languages that support a Sum Type. There's also a Product Type, but that one is supported by most of the Type Systems out there.&lt;/p&gt;
+&lt;p&gt;Let's start with the &lt;strong&gt;Product Type&lt;/strong&gt; because it's a simpler one. Product Type is also sometimes called a Tuple Type. For example, type "Person" could be a combination of two Strings, first name and last name.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;-- Person is a Product Type&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt;
+
+&lt;span class="c1"&gt;-- Names of the fields are not part of the type. It&amp;#39;s just syntax&lt;/span&gt;
+&lt;span class="c1"&gt;-- sugar. This is the same *type* as above:&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="n"&gt;firstName&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lastName&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt;  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So what's the &lt;em&gt;Sum Type&lt;/em&gt; and what's the big deal about it? Let's say you're talking to a doctor.. at some point they ask you how you are feeling. Depending on a situation you may say "I'm feeling good". Or you may say "I'm feeling sick" and you would go on to describe the symptoms and when it started and what you've been doing about it.&lt;/p&gt;
+&lt;p&gt;What's the type of your answer if you can only be in two states? In C++ or Java, we could use an Enum with two values "Healthy" or "Sick". But how would we encode all that extra information that comes with the "Sick" state?&lt;/p&gt;
+&lt;p&gt;Another way to look at it is to say there's a type called Healthy and there's a type called "Sick" and the "Sick" type has extra information that comes with it like a list of symptoms, a start date, a list of preventive measures. And the type of the Answer is a union of those to two types. It's an Either Healthy or Sick type, so to say.&lt;/p&gt;
+&lt;p&gt;Another example. A Union Type could be used to describe a networking state. We're either connecting, connected or disconnected. Each concrete state might have extra specific details to it. "Duration of connection" for instance is only relevant for "Connected" state, it doesn't make sense unless we're connected.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Healthy&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Healthy&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Sick&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Sick&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="n"&gt;symptoms&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;String&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;dateStarted&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;Day&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;AnswerToTheDoctor&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Healthy&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kt"&gt;Sick&lt;/span&gt;
+
+&lt;span class="c1"&gt;--&lt;/span&gt;
+
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Connecting&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Connecting&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="n"&gt;started&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;UTCTime&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Connected&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Connected&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="n"&gt;duration&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;Int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;bytesTransferred&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;Int&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Disconnected&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Disconnected&lt;/span&gt;
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;ConnectionState&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Connecting&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kt"&gt;Connected&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kt"&gt;Disconnected&lt;/span&gt;
+
+&lt;span class="kr"&gt;data&lt;/span&gt; &lt;span class="kt"&gt;Connection&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Connection&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="n"&gt;address&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;ConnectionState&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kr"&gt;let&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Connection&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;0.0.0.0&amp;quot;&lt;/span&gt; &lt;span class="kt"&gt;Disconnected&lt;/span&gt;
+&lt;span class="c1"&gt;-- Connection {address = &amp;quot;0.0.0.0&amp;quot;, state = Disconnected}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;What's a Monad? 😫&lt;/h2&gt;
+&lt;p&gt;According to &lt;a href="https://wiki.haskell.org/Monad"&gt;Haskell Wiki&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The essence of monad is thus separation of composition timeline from the composed computation's execution timeline, as well as the ability of computation to implicitly carry extra data, as pertaining to the computation itself, in addition to its one (hence the name) output, that it will produce when run (or queried, or called upon)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now that we've got that out of the way, let's talk &lt;strong&gt;Type Classes&lt;/strong&gt;!!&lt;/p&gt;
+&lt;p&gt;Type Class is a way to declare a type signature and then, independently, write an implementation of this type signature for any data type in the system.&lt;/p&gt;
+&lt;p&gt;Type Classes in Haskell are similar to Interfaces in Java and TypeScript. Both Type Classes and Interfaces describe a group of operations that can be performed on an object. Remember the example of a Comparable interface in Java. The difference is that we can make a data type part of a type class even if we don't have control over its source code.&lt;/p&gt;
+&lt;p&gt;Let's say we are writing a library that converts values to their JSON representation. In Java, we can declare an interface "ConvertableToJSON" with one method convert() that returns a JSON representation of an object. Logically, String and Integer do have a JSON representation. But in practice, we can't make Integer or String classes implement this interface because we don't have control over their source code. We'll have to work around it somehow.&lt;/p&gt;
+&lt;p&gt;In Haskell, on the other hand, we &lt;em&gt;can&lt;/em&gt; make Integer and String part of the ConvertableToJSON Type Class, no problem. We'll just have to implement convert() function for both of those data types.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// In Java...&lt;/span&gt;
+
+&lt;span class="kd"&gt;interface&lt;/span&gt; &lt;span class="nc"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="nf"&gt;convert&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="c1"&gt;// OK&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Person&lt;/span&gt; &lt;span class="kd"&gt;implements&lt;/span&gt; &lt;span class="n"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Not OK :( We can&amp;#39;t redefine Integer&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Integer&lt;/span&gt; &lt;span class="kd"&gt;implements&lt;/span&gt; &lt;span class="n"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;-- Defining type signature&lt;/span&gt;
+&lt;span class="kr"&gt;type&lt;/span&gt; &lt;span class="kt"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+  &lt;span class="n"&gt;convert&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;String&lt;/span&gt;
+
+&lt;span class="c1"&gt;-- Implementing the type class for a built-in data type&lt;/span&gt;
+&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="kt"&gt;Integer&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+  &lt;span class="n"&gt;convert&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+
+&lt;span class="nf"&gt;convert&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="c1"&gt;-- &amp;quot;1&amp;quot;&lt;/span&gt;
+
+&lt;span class="c1"&gt;-- Implementing the type class for a custom data type&lt;/span&gt;
+&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;ConvertableToJSON&lt;/span&gt; &lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+  &lt;span class="n"&gt;convert&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="n"&gt;firstName&lt;/span&gt; &lt;span class="n"&gt;lastName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;quot;{&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;name&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;:&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt; &lt;span class="n"&gt;firstName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;,&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;surname&lt;/span&gt;&lt;span class="se"&gt;\&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;:&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt; &lt;span class="n"&gt;lastName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;}&amp;quot;&lt;/span&gt;
+
+&lt;span class="nf"&gt;convert&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Person&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Haskell&amp;quot;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Curry&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;-- &amp;quot;{\&amp;quot;name\&amp;quot;:\&amp;quot;Haskell\&amp;quot;,\&amp;quot;surname\&amp;quot;:\&amp;quot;Curry\&amp;quot;}&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And &lt;em&gt;Monad&lt;/em&gt; is just another type class. There you go 🎩&lt;/p&gt;
+&lt;h2&gt;What's next?&lt;/h2&gt;
+&lt;p&gt;Hope this was useful! Let us know what you think about the episode and ask questions if you have any here: https://discuss.codepodcast.com/t/episode-5-type-systems/22&lt;/p&gt;
+&lt;p&gt;Talk to you then!&lt;/p&gt;</content><category term="code"></category><category term="script"></category></entry><entry><title>Limits of technical podcasting</title><link href="http://codepodcast.com/podcast_blog0.html" rel="alternate"></link><published>2016-04-25T00:00:00+00:00</published><updated>2016-04-25T19:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2016-04-25:/podcast_blog0.html</id><summary type="html">&lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are different, but the format is the same. And this format – it has it's limitations.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;p&gt;Podcasts about programming are all the same. Sure, hosts and topics are
 different, but the format is the same. And this format – it has it's
