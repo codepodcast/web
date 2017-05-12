@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-03-03T00:00:00+00:00</updated><entry><title>Episode #5 Type Systems, collateral</title><link href="http://codepodcast.com/s0e5-script.html" rel="alternate"></link><published>2017-03-03T00:00:00+00:00</published><updated>2017-03-02T20:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-03-03:/s0e5-script.html</id><summary type="html">&lt;p&gt;We've recently released &lt;a href="http://codepodcast.com/s0e5.html"&gt;the episode about type systems&lt;/a&gt;. To give you more context, I've refactored the script of the episode and added examples.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code Podcast</title><link href="http://codepodcast.com/" rel="alternate"></link><link href="http://codepodcast.com/feeds/all.atom.xml" rel="self"></link><id>http://codepodcast.com/</id><updated>2017-04-28T20:30:00+00:00</updated><entry><title>Episode #6 Don't make me write UI!</title><link href="http://codepodcast.com/s0e6.html" rel="alternate"></link><published>2017-04-28T00:00:00+00:00</published><updated>2017-04-28T20:30:00+00:00</updated><author><name>Andrey Salomatin &amp; Michael Beschastnov</name></author><id>tag:codepodcast.com,2017-04-28:/s0e6.html</id><summary type="html">&lt;p&gt;Why is it so hard to write and maintain UI code? How can we make it easier? On one hand, we've talked with people who design UI APIs we all use. On the other, we've interviewed those who try to reinvent UI development. Discussion: &lt;a href="https://discuss.codepodcast.com/t/episode-6-dont-make-me-write-ui/44"&gt;discuss.codepodcast.com/t/episode-6-d…e-write-ui/44&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319797890&amp;amp;color=0066cc&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Don't make me write UI!&lt;/h2&gt;
+&lt;p&gt;Why is it so hard to write and maintain UI code? How can we make it easier?
+On one hand, we've talked with people who design UI APIs we all use. On the other, we've interviewed those who try to reinvent UI development.
+Discussion: &lt;a href="https://discuss.codepodcast.com/t/episode-6-dont-make-me-write-ui/44"&gt;discuss.codepodcast.com/t/episode-6-d…e-write-ui/44&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Episode produced by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host:&lt;/strong&gt; Andrey Salomatin &lt;a href="https://twitter.com/filipovskii"&gt;twitter.com/filipovskii&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark side:&lt;/strong&gt; &lt;a href="mailto:michael@codepodcast.com"&gt;Michael Beschastnov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Guests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Steven Tomlinson&lt;/strong&gt;  &lt;a href="https://exit.sc/?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fbowler-hat%2F"&gt;linkedin.com/in/bowler-hat/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Casey Muratori&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Ftwitter.com%2Fcmuratori"&gt;twitter.com/cmuratori&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rik Arends&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Ftwitter.com%2Frikarends"&gt;twitter.com/rikarends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Domenic Denicola&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Ftwitter.com%2Fdomenic"&gt;twitter.com/domenic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yegor Jbanov&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Ftwitter.com%2Fyegorjbanov"&gt;twitter.com/yegorjbanov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Links: Casey&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ImGui introduction video&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fmollyrocket.com%2F861"&gt;mollyrocket.com/861&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IMGUI Yay or Nay&lt;/strong&gt; &lt;a href="https://exit.sc/?url=http%3A%2F%2Fgamedev.stackexchange.com%2Fquestions%2F24103%2Fimmediate-gui-yae-or-nay"&gt;gamedev.stackexchange.com/questions/24…i-yae-or-nay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dear imgui&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fgithub.com%2Focornut%2Fimgui"&gt;github.com/ocornut/imgui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Ffacebook.github.io%2Freact%2F"&gt;facebook.github.io/react/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Links: Rik&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Makepad&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fmakepad.github.io%2Fmakepad"&gt;makepad.github.io/makepad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud 9&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fc9.io%2F"&gt;c9.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"Rik Arends: Beyond HTML and CSS: Fusing Javascript and shaders | JSConf EU 2014"&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX8xxz-YeWtk"&gt;www.youtube.com/watch?v=X8xxz-YeWtk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Links: Domenic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;"The Extensible Web" article by Domenic&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fblog.domenic.me%2Fthe-extensible-web%2F"&gt;blog.domenic.me/the-extensible-web/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"How to Win Friends and Influence Standards Bodies" talk by Domenic&lt;/strong&gt; &lt;a href="https://exit.sc/?url=https%3A%2F%2Fwww.slideshare.net%2Fdomenicdenicola%2Fhow-to-win-friends-and-influence-standards-bodies"&gt;www.slideshare.net/domenicdenicola…tandards-bodies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Links: Yegor&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://exit.sc/?url=https%3A%2F%2Fflutter.io"&gt;flutter.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://flutter.io/design-principles/"&gt;flutter.io/design-principles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://flutter.io/testing/"&gt;flutter.io/testing&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Music&lt;/h3&gt;
+&lt;p&gt;Mid-Air! &lt;a href="https://soundcloud.com/mid_air"&gt;@mid_air&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><category term="code"></category><category term="episode"></category></entry><entry><title>Episode #5 Type Systems, collateral</title><link href="http://codepodcast.com/s0e5-script.html" rel="alternate"></link><published>2017-03-03T00:00:00+00:00</published><updated>2017-03-02T20:30:00+00:00</updated><author><name>Andrey Salomatin</name></author><id>tag:codepodcast.com,2017-03-03:/s0e5-script.html</id><summary type="html">&lt;p&gt;We've recently released &lt;a href="http://codepodcast.com/s0e5.html"&gt;the episode about type systems&lt;/a&gt;. To give you more context, I've refactored the script of the episode and added examples.&lt;/p&gt;</summary><content type="html">&lt;div class="addthis_sharing_toolbox"&gt;&lt;/div&gt;
 
 &lt;p&gt;We've recently released &lt;a href="http://codepodcast.com/s0e5.html"&gt;the episode about type systems&lt;/a&gt;. To give you more context, I've refactored the script of the episode and added examples.&lt;/p&gt;
 &lt;h2&gt;Hardworking Carpenters&lt;/h2&gt;
